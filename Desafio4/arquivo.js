@@ -6,12 +6,9 @@ convertion( money ) ;
 
 
 function convertion(money ){
+    let dolar = money/5.7;
+    let euro = money/6.1;
 
-    console.log(`Valor em dólar ${money/5.7} \nValor em euro ${money/6.1} `);
+    console.log(`Valor em dólar US$ ${ dolar.toFixed(2) } \nValor em euro €$ ${ euro.toFixed(2) } `);
 
 }
-
-
-
-
-
